@@ -1,0 +1,130 @@
+.heading{
+    height: 10vh;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+     background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
+    background-blend-mode: multiply, screen, normal;;
+    margin-bottom: 30px;
+    
+}
+.btn_main_div{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.btn{
+    height: 40px;
+    border-radius: 12px;
+    font-weight: bold;
+
+}
+.btn:hover{
+    color: white;
+    background: linear-gradient(120deg, #4B0000 0%, #000000 100%), linear-gradient(300deg, #1E0000 0%, #0038FF 100%, #0038FF 100%), linear-gradient(65deg, #00FFFF 0%, #FF00A8 100%), linear-gradient(185deg, #FF0000 10%, #1400FF 95%), radial-gradient(100% 140% at 100% 0%, #00A3FF 0%, #C10097 100%);
+    background-blend-mode: color-dodge, overlay, difference, color-dodge, normal;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 0px) and (max-width:400px) {
+    .btn_main_div{
+     grid-template-columns: repeat(2,1fr)
+    }
+    .heading{
+     height: 20vh;
+     width: 80%;
+     margin: auto;
+     margin-bottom: 30px;
+    }
+    .btn{
+        height: 20px;
+        border-radius: 8px;
+        font-weight: bold;
+    
+    }
+    .btn:hover{
+        color: white;
+        background: linear-gradient(120deg, #4B0000 0%, #000000 100%), linear-gradient(300deg, #1E0000 0%, #0038FF 100%, #0038FF 100%), linear-gradient(65deg, #00FFFF 0%, #FF00A8 100%), linear-gradient(185deg, #FF0000 10%, #1400FF 95%), radial-gradient(100% 140% at 100% 0%, #00A3FF 0%, #C10097 100%);
+        background-blend-mode: color-dodge, overlay, difference, color-dodge, normal;
+    }
+ 
+ }
+ 
+ @media only screen and (min-width: 401px) and (max-width:750px) {
+ 
+ .btn_main_div{
+     grid-template-columns: repeat(3,1fr);
+ }
+ .heading{
+     height: 20vh;
+     width: 80%;
+     margin: auto;
+     margin-bottom: 30px;
+ }
+ .btn{
+    height: 25px;
+    border-radius: 9px;
+    font-weight: bold;
+
+}
+ .btn:hover{
+    color: white;
+    background: linear-gradient(120deg, #4B0000 0%, #000000 100%), linear-gradient(300deg, #1E0000 0%, #0038FF 100%, #0038FF 100%), linear-gradient(65deg, #00FFFF 0%, #FF00A8 100%), linear-gradient(185deg, #FF0000 10%, #1400FF 95%), radial-gradient(100% 140% at 100% 0%, #00A3FF 0%, #C10097 100%);
+    background-blend-mode: color-dodge, overlay, difference, color-dodge, normal;
+}
+ }
+ @media only screen and (min-width: 751px) and (max-width:900px) {
+    .btn{
+        height: 30px;
+        border-radius: 10px;
+        font-weight: bold;
+    
+    }
+     .btn_main_div{
+         grid-template-columns: repeat(6,1fr);
+         /* width: 80%;
+         margin: auto; */
+     }
+     .heading{
+         height: 12vh;
+         width: 80%;
+         margin: auto;
+         margin-bottom: 30px;
+     }
+     .btn:hover{
+        color: white;
+        background: linear-gradient(120deg, #4B0000 0%, #000000 100%), linear-gradient(300deg, #1E0000 0%, #0038FF 100%, #0038FF 100%), linear-gradient(65deg, #00FFFF 0%, #FF00A8 100%), linear-gradient(185deg, #FF0000 10%, #1400FF 95%), radial-gradient(100% 140% at 100% 0%, #00A3FF 0%, #C10097 100%);
+        background-blend-mode: color-dodge, overlay, difference, color-dodge, normal;
+    }
+     
+ }
+
+ @media only screen and (min-width: 901px) and (max-width:1200px) {
+ 
+    .btn_main_div{
+        grid-template-columns: repeat(8,1fr);
+        /* width: 80%;
+        margin: auto; */
+    }
+    .btn{
+        height: 35px;
+        border-radius: 11px;
+        font-weight: bold;
+    
+    }
+    .btn:hover{
+        color: white;
+        background: linear-gradient(120deg, #4B0000 0%, #000000 100%), linear-gradient(300deg, #1E0000 0%, #0038FF 100%, #0038FF 100%), linear-gradient(65deg, #00FFFF 0%, #FF00A8 100%), linear-gradient(185deg, #FF0000 10%, #1400FF 95%), radial-gradient(100% 140% at 100% 0%, #00A3FF 0%, #C10097 100%);
+        background-blend-mode: color-dodge, overlay, difference, color-dodge, normal;
+    }
+}
+ 

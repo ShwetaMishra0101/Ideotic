@@ -1,0 +1,70 @@
+.heading{
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+    color: white;
+     background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
+    background-blend-mode: multiply, screen, normal;;
+    
+}
+.image_main_div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.image{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.image:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+  }
+  .breed_name{
+    color: maroon;
+
+
+  }
+
+@media only screen and (min-width: 0px) and (max-width:400px) {
+   .image_main_div{
+    grid-template-columns: 1fr
+   }
+   .heading{
+    height: 20vh;
+    width: 80%;
+    margin: auto;
+   }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width:750px) {
+
+.image_main_div{
+    grid-template-columns: repeat(2,1fr);
+}
+.heading{
+    height: 20vh;
+    width: 80%;
+    margin: auto;
+}
+}
+@media only screen and (min-width: 751px) and (max-width:900px) {
+
+    .image_main_div{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .heading{
+        height: 12vh;
+        width: 80%;
+        margin: auto;
+    }
+    
+}
